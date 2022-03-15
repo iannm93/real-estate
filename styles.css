@@ -104,3 +104,7 @@ a:link{
     border-radius: 10px;
 
 }
+
+#howLong, #house, #mortgageValue, #mortgage, #liens, #lease, #address, #phone-number, #username, #email{
+    border-radius: 10px;
+}
