@@ -1,0 +1,87 @@
+#height{
+    margin-top: 0;
+    background-image:url("https://www.offerpad.com/landing-bg-1920-12c7a5f787a31074da4e52159629ee15.jpg");
+    height: 425px;
+    background-position-x:62% ;
+    background-position-y: 50%;
+    align-items: flex-end;
+}
+
+.btn-primary{
+    background-color: #7f5a83;
+    border-radius: 20px;
+}
+
+.btn-primary:hover{
+    background-color: #9921e8;
+    background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
+}
+
+.card-title {
+    text-align: center;
+}
+
+#applyButton {
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 20%);
+    color: #fff;
+    /* background-color: #0d6efd; */
+    /* border-color: #0d6efd; */
+    border-radius: 20px;
+    border-color: white;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    font-size:15px;
+    padding:8px;
+}
+#applyButton:hover{
+   
+        background-color: #9921e8;
+        background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
+   
+}
+#cardTitle{
+    text-align: center;
+
+}
+
+#cardBody{
+    box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 15%);
+}
+
+#number{
+       /* width: 120px;
+    height: 90; */
+    width: 40px;
+    height: 40px;
+    /* background: blue; */
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    color: white;
+    border-radius: 30px;
+    font-size: 22px;
+    font-weight: 900;
+    font-family: "Raleway", sans-serif;
+    /* text-align: center; */
+    /* padding-bottom: 5px; */
+    /* align-items: center; */
+    /* when placing a div within another div, display inline block is needed for it to be centered */
+    /* display: inherit; */
+    /* vertical-align: text-top;*/
+}
+
+#cards{
+    padding-top: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+}
+#margin{
+    margin: 5px;
+}
+a:link{
+    text-decoration: none;
+}
+
+#box-shadow{
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+
+}
