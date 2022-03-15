@@ -17,37 +17,40 @@
         <form>
             <div class="form-group">
                 <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input id="email" type="email" class="form-control" id="exampleFormControlInput1"
+                    placeholder="name@example.com">
             </div>
             <form>
-             
+
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Name</label>
-                    <input type="name" class="form-control" id="exampleFormControlInput1">
+                    <input id="username" type="name" class="form-control" id="exampleFormControlInput1">
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Phone Number</label>
-                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="1(555)-555-3521">
+                    <input id="phone-number" type="name" class="form-control" id="exampleFormControlInput1"
+                        placeholder="1(555)-555-3521">
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Address</label>
-                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Type address here">
+                    <input id="address" type="name" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Type address here">
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlSelect1">Do you have a solar lease?</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                        <option>No</option>
-                        <option>Yes</option>
-                      
+                    <select id="lease" class="form-control" id="exampleFormControlSelect1">
+                        <option value="No">No</option>
+                        <option value="Yes">Yes</option>
+
                     </select>
                 </div>
             </form>
             <div class="form-group">
                 <label for="exampleFormControlSelect1">Are there any liens or encumberances on the property?</label>
-                <select class="form-control" id="exampleFormControlSelect1">
+                <select id="liens" class="form-control" id="exampleFormControlSelect1">
                     <option>No</option>
                     <option>Yes</option>
-               
+
                 </select>
             </div>
             <div class="form-group">
@@ -55,30 +58,48 @@
                 <select class="form-control" id="exampleFormControlSelect1">
                     <option>No</option>
                     <option>Yes</option>
-               
+
                 </select>
             </div>
-       
+
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">If so, with what company and what's approximate amount of your mortgage?</label>
-                <textarea placeHolder= "Leave empty if you do not have a mortgage."class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <label for="exampleFormControlTextarea1">If so, with what company and what's approximate amount of your
+                    mortgage?</label>
+                <textarea placeHolder="Leave empty if you do not have a mortgage." class="form-control"
+                    id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <div class="form-group">
                 <label for="exampleFormControlSelect1">Do you want to live in the house after you sell it?</label>
                 <select class="form-control" id="exampleFormControlSelect1">
-                    <option>No</option>
-                    <option>Yes</option>
-               
+                    <div id="house">
+
+                        <option>No</option>
+                        <option>Yes</option>
+                    </div>
+
                 </select>
             </div>
-       
+
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">If so, how long do you want to stay?</label>
-                <textarea placeHolder= "Leave empty if you do not want to stay in your home after you sell it." class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea placeHolder="Leave empty if you do not want to stay in your home after you sell it."
+                    class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
         </form>
-        <button id="formButton"type="button" class="btn btn-primary mt-3">Submit</button>
+        <!-- <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+                <label class="form-check-label" for="invalidCheck3">
+                    Agree to terms and conditions
+                </label>
+                <div class="invalid-feedback">
+                    You must agree before submitting.
+                </div>
+            </div>
+        </div> -->
+        <button id="formButton" type="button" class="btn btn-primary mt-3">Submit</button>
     </div>
+    <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
